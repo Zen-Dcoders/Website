@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+.passion-one-regular {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .passion-one-bold {
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .passion-one-black {
+    font-family: "Passion One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+ 
+
+.teko{
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.akaya-kanadaka-regular {
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.stint-ultra-condensed-regular {
+  font-family: "Stint Ultra Condensed", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.pridi-extralight {
+  font-family: "Pridi", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.pridi-light {
+  font-family: "Pridi", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.pridi-regular {
+  font-family: "Pridi", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pridi-medium {
+  font-family: "Pridi", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.pridi-semibold {
+  font-family: "Pridi", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.pridi-bold {
+  font-family: "Pridi", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.kode-mono-bold {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.rancho-regular {
+  font-family: "Rancho", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
