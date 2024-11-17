@@ -14,7 +14,7 @@ import Contact from './sections/Contact/Contact';
 
 function App() {
     return (
-        <Router>
+        <Router basename="https://zendcoders.in">
             <Navbar />
             <main>
                 <Routes>
