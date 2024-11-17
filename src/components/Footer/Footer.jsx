@@ -32,11 +32,11 @@ const Footer = () => {
               Instagram
             </a>
           </li>
-          <li>
+          {/* <li>
             <a rel="noopener noreferrer text-[#ffffff]" href="#">
               Facebook
             </a>
-          </li>
+          </li> */}
           <li>
             <a rel="noopener noreferrer text-[#ffffff]" href="https://linkedin.com/in/zendcoders-admin-a2948b339">
               Linkedin
