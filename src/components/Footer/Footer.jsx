@@ -15,20 +15,20 @@ const Footer = () => {
           </div>
           <ul className="flex flex-wrap items-center space-x-4 sm:space-x-8">
             <li>
-              <a rel="noopener noreferrer" href="#">
-                Terms of Use
-              </a>
+              {/* <a rel="noopener noreferrer" href="#"> */}
+                Copyright &copy; 2024 ZenDcoders - All Rights Reserved.
+              {/* </a> */}
             </li>
             <li>
               <a rel="noopener noreferrer" href="#">
-                Privacy
+                {/* Privacy */}
               </a>
             </li>
           </ul>
         </div>
         <ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8 text-[#ffffff]">
           <li>
-            <a rel="noopener noreferrer text-[#ffffff]" href="#">
+            <a rel="noopener noreferrer text-[#ffffff]" href="https://www.instagram.com/zendcoders/?next=%2F&hl=en">
               Instagram
             </a>
           </li>
@@ -38,8 +38,8 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a rel="noopener noreferrer text-[#ffffff]" href="#">
-              Twitter
+            <a rel="noopener noreferrer text-[#ffffff]" href="https://linkedin.com/in/zendcoders-admin-a2948b339">
+              Linkedin
             </a>
           </li>
         </ul>
