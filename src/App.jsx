@@ -14,7 +14,9 @@ import Contact from './sections/Contact/Contact';
 
 function App() {
     return (
-        <Router basename="./">
+        <Router basename="/" future={{
+            v7_relativeSplatPath: true,
+          }}>
             <Navbar />
             <main>
                 <Routes>
