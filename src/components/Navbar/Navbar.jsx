@@ -1,7 +1,7 @@
 // src/components/Navbar/Navbar.jsx
 import  { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../../public/ZenDcoders_Logo_Dark.png'
+// import logo from '../../../public/ZenDcoders_Logo_Dark.png'
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +12,7 @@ function Navbar() {
                 {/* Logo */}
                 <div className="text-white text-2xl font-bold">
                     <Link to="/">
-                        <img src={logo} alt="Company Logo" className="h-[60px] w-auto" />
+                        <img src={"https://res.cloudinary.com/dn2609yjq/image/upload/c_crop,ar_16:9/v1737056403/logo_dark_ylpj1z.png"} alt="Company Logo" className="h-[80px] w-auto" />
                     </Link>
                 </div>
 

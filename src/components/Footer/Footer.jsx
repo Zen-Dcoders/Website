@@ -1,5 +1,5 @@
 // import React from "react";
-import logo from '../../../public/ZenDcoders_Logo_Dark.png'
+// import logo from '../../../public/ZenDcoders_Logo_Dark.png'
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="flex items-center justify-center flex-shrink-0 h-12 rounded-full ">
           <div className="text-white text-2xl font-bold">
                     {/* <Link to="/"> */}
-                        <img src={logo} alt="Company Logo" className="h-[60px] w-auto" />
+                        <img src={"https://res.cloudinary.com/dn2609yjq/image/upload/c_crop,ar_16:9/v1737056403/logo_dark_ylpj1z.png"} alt="Company Logo" className="h-[60px] w-auto" />
                     {/* </Link> */}
                 </div>
           </div>
