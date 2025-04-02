@@ -33,9 +33,12 @@ function App() {
 
                     {/* Fallback for any undefined paths */}
                     {/* <Route path="*" element={<NotFound />} /> */}
+                    <Route path="/Terms&Conditions" element={<Footer />} />
+
                 </Routes>
             </main>
             <Footer />
+
         </Router>
     );
 }
