@@ -24,7 +24,7 @@ jobs:
         run: npm run build
 
       - name: Upload production-ready build files
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@d5d664d555d694b4d6c5573b11d4f9b1d5a06e3a
         with:
           name: production-files
           path: ./dist
