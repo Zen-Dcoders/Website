@@ -1,4 +1,3 @@
-
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
@@ -17,28 +16,31 @@ function App() {
         <Router basename="/" future={{
             v7_relativeSplatPath: true,
           }}>
-            <Navbar />
-            <main>
-                <Routes>
-                   
-                    <Route path="/" element={<MainPage />} />
-
-                    
-                    <Route path="/expertise" element={<Expertise />} />
-                    <Route path="/team" element={<Team />} />
-                    <Route path="/events" element={<Events />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/testimonials" element={<Testimonials />} />
-                    <Route path="/contact" element={<Contact />} />
-
-                    {/* Fallback for any undefined paths */}
-                    {/* <Route path="*" element={<NotFound />} /> */}
-                    <Route path="/Terms&Conditions" element={<Footer />} />
-
-                </Routes>
-            </main>
-            <Footer />
-
+            <Routes>
+                {/* Route for Terms&Conditions - shows only Footer */}
+                <Route path="/Terms&Conditions" element={<Footer />} />
+                
+                {/* All other routes use the normal layout */}
+                <Route path="*" element={
+                    <>
+                        <Navbar />
+                        <main>
+                            <Routes>
+                                <Route path="/" element={<MainPage />} />
+                                <Route path="/expertise" element={<Expertise />} />
+                                <Route path="/team" element={<Team />} />
+                                <Route path="/events" element={<Events />} />
+                                <Route path="/about" element={<About />} />
+                                <Route path="/testimonials" element={<Testimonials />} />
+                                <Route path="/contact" element={<Contact />} />
+                                {/* Fallback for any undefined paths */}
+                                {/* <Route path="*" element={<NotFound />} /> */}
+                            </Routes>
+                        </main>
+                        <Footer />
+                    </>
+                } />
+            </Routes>
         </Router>
     );
 }
